@@ -1,0 +1,4 @@
+D:\hpl\PhieuThu\DataHandle\bin\Debug\DataHandle.dll
+D:\hpl\PhieuThu\DataHandle\bin\Debug\DataHandle.pdb
+D:\hpl\PhieuThu\DataHandle\obj\Debug\DataHandle.dll
+D:\hpl\PhieuThu\DataHandle\obj\Debug\DataHandle.pdb

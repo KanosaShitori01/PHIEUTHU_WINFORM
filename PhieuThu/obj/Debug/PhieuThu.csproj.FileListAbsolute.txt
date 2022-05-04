@@ -1,0 +1,10 @@
+D:\hpl\PhieuThu\PhieuThu\bin\Debug\PhieuThu.exe
+D:\hpl\PhieuThu\PhieuThu\bin\Debug\PhieuThu.pdb
+D:\hpl\PhieuThu\PhieuThu\obj\Debug\PhieuThu.csprojResolveAssemblyReference.cache
+D:\hpl\PhieuThu\PhieuThu\obj\Debug\PhieuThu.Form1.resources
+D:\hpl\PhieuThu\PhieuThu\obj\Debug\PhieuThu.Properties.Resources.resources
+D:\hpl\PhieuThu\PhieuThu\obj\Debug\PhieuThu.csproj.GenerateResource.Cache
+D:\hpl\PhieuThu\PhieuThu\obj\Debug\PhieuThu.exe
+D:\hpl\PhieuThu\PhieuThu\obj\Debug\PhieuThu.pdb
+D:\hpl\PhieuThu\PhieuThu\bin\Debug\DataHandle.dll
+D:\hpl\PhieuThu\PhieuThu\bin\Debug\DataHandle.pdb
