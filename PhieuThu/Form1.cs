@@ -12,7 +12,7 @@ namespace PhieuThu
 {
     public partial class Form1 : Form
     {
-        SqlConnection conn = HandleCLS.conn(".", "QLBH"); 
+        SqlConnection conn = HandleCLS.conn(@"DESKTOP-MC\SQLEXPRESS", "QLBH"); 
         public Form1()
         {
             InitializeComponent();
@@ -61,6 +61,16 @@ namespace PhieuThu
             Array.Reverse(arr);
             return String.Join("-", arr);
         }
+        private bool checkDataIn(int sotien, int sotienphaitra, int sotiendatra)
+        {
+            bool res = true;
+            if(sotien > sotienphaitra || (sotien + sotiendatra) > sotienphaitra)
+            {
+                MessageBox.Show("Số tiền nhập quá lớn so với số tiền phải trả");
+                res = false;
+            }
+            return res;
+        }
         private void btn_luu_Click(object sender, EventArgs e)
         {
             Dictionary<string,object> dataIn = new Dictionary<string,object>();
@@ -69,9 +79,16 @@ namespace PhieuThu
             dataIn.Add("SoTien", txt_sotien.Text);
             dataIn.Add("DienGiai", txt_diengiai.Text);
             dataIn.Add("SoPX", cb_phieuxuat.Text);
-            if (HandleCLS.insertData("PHIEU_THU", dataIn, conn))
+            if (checkDataIn(int.Parse(txt_sotien.Text), 
+                int.Parse(txt_phaitra.Text), int.Parse(txt_datra.Text)))
             {
+                HandleCLS.insertData("PHIEU_THU", dataIn, conn);
                 MessageBox.Show("Lưu thành công");
+                HandleCLS.tempVal = txt_sct.Text;
+                Form2 f2 = new Form2();
+                f2.Show();
+                activeDataSQL();
+               
             }
             else MessageBox.Show("Hổng được òi");
            // MessageBox.Show(HandleCLS.insertData("PHIEU_THU", dataIn, conn));

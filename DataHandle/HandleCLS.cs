@@ -8,6 +8,7 @@ namespace DataHandle
 {
     public class HandleCLS
     {
+        public static string tempVal;
         public static SqlConnection conn(string nameServer, string nameDatabase)
         {
             string query = String.Format(@"Server={0};Database={1};Integrated Security=true", nameServer, nameDatabase);

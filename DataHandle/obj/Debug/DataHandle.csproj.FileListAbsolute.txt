@@ -2,3 +2,9 @@ D:\hpl\PhieuThu\DataHandle\bin\Debug\DataHandle.dll
 D:\hpl\PhieuThu\DataHandle\bin\Debug\DataHandle.pdb
 D:\hpl\PhieuThu\DataHandle\obj\Debug\DataHandle.dll
 D:\hpl\PhieuThu\DataHandle\obj\Debug\DataHandle.pdb
+D:\Program File (K.N)\GitHub\Back-End\C#\PHIEUTHU_WINFORM\DataHandle\bin\Debug\DataHandle.dll
+D:\Program File (K.N)\GitHub\Back-End\C#\PHIEUTHU_WINFORM\DataHandle\bin\Debug\DataHandle.pdb
+D:\Program File (K.N)\GitHub\Back-End\C#\PHIEUTHU_WINFORM\DataHandle\obj\Debug\DataHandle.csproj.CoreCompileInputs.cache
+D:\Program File (K.N)\GitHub\Back-End\C#\PHIEUTHU_WINFORM\DataHandle\obj\Debug\DataHandle.dll
+D:\Program File (K.N)\GitHub\Back-End\C#\PHIEUTHU_WINFORM\DataHandle\obj\Debug\DataHandle.pdb
+D:\Program File (K.N)\GitHub\Back-End\C#\PHIEUTHU_WINFORM\DataHandle\obj\Debug\DataHandle.csproj.AssemblyReference.cache
