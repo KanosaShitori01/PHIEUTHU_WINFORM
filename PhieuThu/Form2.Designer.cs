@@ -32,10 +32,10 @@ namespace PhieuThu
             this.components = new System.ComponentModel.Container();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.QLBHDataSet = new PhieuThu.QLBHDataSet();
+            this.QLBHDataSet1 = new PhieuThu.QLBHDataSet1();
             this.PHIEUTHUFULLBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.PHIEUTHUFULLTableAdapter = new PhieuThu.QLBHDataSetTableAdapters.PHIEUTHUFULLTableAdapter();
-            ((System.ComponentModel.ISupportInitialize)(this.QLBHDataSet)).BeginInit();
+            this.PHIEUTHUFULLTableAdapter = new PhieuThu.QLBHDataSet1TableAdapters.PHIEUTHUFULLTableAdapter();
+            ((System.ComponentModel.ISupportInitialize)(this.QLBHDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PHIEUTHUFULLBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
@@ -45,22 +45,22 @@ namespace PhieuThu
             reportDataSource1.Name = "DataSet1";
             reportDataSource1.Value = this.PHIEUTHUFULLBindingSource;
             this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
-            this.reportViewer1.LocalReport.ReportEmbeddedResource = "PhieuThu.Report1.rdlc";
+            this.reportViewer1.LocalReport.ReportEmbeddedResource = "PhieuThu.Report2.rdlc";
             this.reportViewer1.Location = new System.Drawing.Point(0, 0);
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.ServerReport.BearerToken = null;
             this.reportViewer1.Size = new System.Drawing.Size(594, 491);
             this.reportViewer1.TabIndex = 0;
             // 
-            // QLBHDataSet
+            // QLBHDataSet1
             // 
-            this.QLBHDataSet.DataSetName = "QLBHDataSet";
-            this.QLBHDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.QLBHDataSet1.DataSetName = "QLBHDataSet1";
+            this.QLBHDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // PHIEUTHUFULLBindingSource
             // 
             this.PHIEUTHUFULLBindingSource.DataMember = "PHIEUTHUFULL";
-            this.PHIEUTHUFULLBindingSource.DataSource = this.QLBHDataSet;
+            this.PHIEUTHUFULLBindingSource.DataSource = this.QLBHDataSet1;
             // 
             // PHIEUTHUFULLTableAdapter
             // 
@@ -75,7 +75,7 @@ namespace PhieuThu
             this.Name = "Form2";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.QLBHDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.QLBHDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PHIEUTHUFULLBindingSource)).EndInit();
             this.ResumeLayout(false);
 
@@ -85,7 +85,7 @@ namespace PhieuThu
 
         private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
         private System.Windows.Forms.BindingSource PHIEUTHUFULLBindingSource;
-        private QLBHDataSet QLBHDataSet;
-        private QLBHDataSetTableAdapters.PHIEUTHUFULLTableAdapter PHIEUTHUFULLTableAdapter;
+        private QLBHDataSet1 QLBHDataSet1;
+        private QLBHDataSet1TableAdapters.PHIEUTHUFULLTableAdapter PHIEUTHUFULLTableAdapter;
     }
 }
